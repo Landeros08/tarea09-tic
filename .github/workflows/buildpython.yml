@@ -1,0 +1,16 @@
+name: Python Container
+on: push
+jobs:
+  build-python:
+    runs-on: ubuntu-latest
+    container: python:3.12
+    steps:
+      - name: Check environment
+        run: |
+          echo "Running inside a Python Docker container"
+          python --version
+          pip --version
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Run app
+        run: python app.py
