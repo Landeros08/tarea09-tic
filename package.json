@@ -1,0 +1,24 @@
+{
+  "name": "tarea09-tic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Landeros08/tarea09-tic.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Landeros08/tarea09-tic/issues"
+  },
+  "homepage": "https://github.com/Landeros08/tarea09-tic#readme",
+  "dependencies": {
+    "moment": "^2.31.0"
+  }
+}
